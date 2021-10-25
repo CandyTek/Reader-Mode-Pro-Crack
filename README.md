@@ -1,5 +1,5 @@
-# Read-Mode-Pro-Crack
-Chrome Extension (Read Mode Pro 1.2.6.0) Crack
+# Reader-Mode-Pro-Crack
+Chrome Extension (Reader Mode Pro 1.2.6.0) Crack
 
 （2021-10-25 发布）
 
