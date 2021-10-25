@@ -1,0 +1,146 @@
+<style type="text/css">
+  #cr-license-modal {
+    text-align: left;
+    position: fixed;
+    z-index: 2147483647;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #1F212E;
+  }
+
+  #cr-license-modal-content {
+    width: 550px;
+    margin: 200px auto;
+    padding: 30px 40px 44px;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #121212;
+    box-shadow: 0 7px 29px 0 rgba(100,100,111,.2);
+  }
+
+  #cr-license-modal #logo{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff !important;
+  }
+
+  #cr-license-modal-content h1 {
+    margin-bottom: 5px;
+  }
+
+  #cr-license-modal-content p {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 15px;
+  }
+
+  #cr-license-modal-content input {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 12px;
+    width: 100%;
+    letter-spacing: 2px;
+    outline: 0;
+  }
+
+  #cr-license-modal a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 250ms ease-in-out;
+  }
+
+  #cr-license-modal a:hover {
+    opacity: 1;
+    font-weight: 700;
+  }
+
+  #cr-license-modal-content .btn {
+    background: #fff;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    padding: 13px 20px;
+    color: #121212;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    box-shadow: 0 7px 29px 0 rgba(100,100,111,.2);
+    margin: 15px 10px 0 0;
+    outline: 0;
+    transition: 250ms ease-in-out;
+  }
+
+  #cr-license-modal-content .btn:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 34px 0 rgba(0,0,0,.7);
+  }
+
+  #cr-license-modal-content .btn.disabled:hover {
+    cursor: not-allowed !important;
+    opacity: 0.9;
+  }
+
+  #cr-license-modal-close {
+    color: #fff;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #cr-license-modal-close:hover,
+  #cr-license-modal-close:focus {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #cr-license-modal #cr-license-successful{
+    text-align: center;
+  }
+
+  #cr-license-modal #cr-license-successful #sucess-logo{
+    font-size: 100px;
+    color: #62e27e;
+    margin-top: 15px;
+  }
+
+  #cr-license-modal #start-chrome-reader{
+    background: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    margin-top: 20px;
+  }
+</style>
+<div id="cr-license-modal">
+  <div id="cr-license-modal-content">
+    <span id="cr-license-modal-close"><i class="fas fa-times"></i></span>
+    <div id="cr-license-modal-activation">
+      <h1 id="cr-license-modal-h1">License Activation</h1>
+      <p>
+        Please enter the license key provided to you which can be found on your receipt.
+      </p>
+
+      <input type="text" id="cr-license-input" placeholder="Enter your license here..." autocomplete="off" spellcheck="false" required="required" minlength="10" maxlength="50" />
+      <button class="btn" id="cr-activate-license-btn">
+        Activate License
+       </button>
+      <a id="cr-license-modal-contact" href="https://readermode.io" target="_blank">Buy license</a>
+      &middot;
+      <a id="cr-license-modal-contact" href="https://airtable.com/shrJZYDwevtCoqck5" target="_blank">Contact us</a>
+    </div>
+
+  </div>
+</div>
