@@ -29,7 +29,7 @@ Reader Mode Pro插件地址：[Reader Mode Pro - Chrome 网上应用店](https:/
 打开文件后，在第37行 （这一行意思是判断许可证是否为空，许可证内容长度是否大于30）：
 
 ```javascript
-if (license.cr_license !== undefined && Object.keys(license.cr_license).length > 1 && license.cr_license.key.length > 30) {
+if (license.cr_license !== undefined && Object.keys(license.cr_license)。length > 1 && license.cr_license。key。length > 30) {
 ```
 
 直接让它跳过判断，这一行修改为：
@@ -60,3 +60,7 @@ if (true) {
 - 仅供学习使用，仅供学习使用，仅供学习使用
 - 请勿用于其他目的，产生的后果自负
 - 插件版权归 [reader mode.io](https://readermode.io/) 所有
+
+### 免责声明 
+
+本脚本中提供的所有功能均仅在浏览器中运行，所使用的源代码公开透明可见，且本脚本仅学习研究使用，不使用任何盈利方案或参与任何盈利组织，因使用本脚本引起的或与本脚本有关的任何争议，各方应友好协商解决，本脚本对使用本脚本所提供的软件时可能对用户自己或他人造成的任何形式的损失和伤害不承担任何责任。如用户下载、安装和使用本产品中所提供的软件，即表明用户信任本作者及其相关协议和免责声明。
